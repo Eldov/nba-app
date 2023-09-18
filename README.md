@@ -80,40 +80,40 @@ $ docker compose down
   
 The Game By Date dataset originates from the nba-api package. Due to problems using the original link (I was unable to return data for specific dates, instead, the entire dataset would be requested), I understood that would be better to use the package.   
   
-GAME_ID: Unique ID for that specific match in this specific dataset;  
-AWAY_SCORE: Points scored by the visitor team;  
-AWAY_TEAM: Abbreviation of the visitor team's name;  
-GAME_DATE: The date where the match happened;  
-HOME_SCORE: Points scored by the home team;  
-HOME_TEAM: Abbreviation of the home team's name;  
-MATCHUP: The teams playing against each other and where;  
-WINNER: Indicates which team won that match.  
+- **GAME_ID:** Unique ID for that specific match in this specific dataset;  
+- **AWAY_SCORE:** Points scored by the visitor team;  
+- **AWAY_TEAM:** Abbreviation of the visitor team's name;  
+- **GAME_DATE:** The date where the match happened;  
+- **HOME_SCORE:** Points scored by the home team;  
+- **HOME_TEAM:** Abbreviation of the home team's name;  
+- **MATCHUP:** The teams playing against each other and where;  
+- **WINNER:** Indicates which team won that match.  
 
 
 ### Game By ID:
   
 The Game By ID dataset originates from the original link[](https://rapidapi.com/theapiguy/api/free-nba/endpoints). AAs mentioned before, the ID's are within a range from 1 to 49153. Those ID's do not match the ID's for the previous dataset.  
   
-GAME_ID: Unique ID for that specific match in this specific dataset;  
-AWAY_SCORE: Points scored by the visitor team;  
-AWAY_TEAM: Abbreviation of the visitor team's name;  
-GAME_DATE: The date where the match happened;  
-HOME_SCORE: Points scored by the home team;  
-HOME_TEAM: Abbreviation of the home team's name.  
+- **GAME_ID:** Unique ID for that specific match in this specific dataset;  
+- **AWAY_SCORE:** Points scored by the visitor team;  
+- **AWAY_TEAM:** Abbreviation of the visitor team's name;  
+- **GAME_DATE:** The date where the match happened;  
+- **HOME_SCORE:** Points scored by the home team;  
+- **HOME_TEAM:** Abbreviation of the home team's name.  
 
 ## Teams Stats:
   
 This dataset indicates the some stats for each team that played a specific period of time. The csv is download immediatelly after clicking the option. The name of the report follows the format: *start-date_to_end-date_report.csv*, example: *2023-09-10_to_2023-09-13_report*.  
   
-TEAM_NAME: The name of the team which the entry is referring to;  
-PTS_AVG: Average of points scored in the given period;  
-HOME_AVG: Average of points scored at home in the given period;  
-AWAY_AVG: Average of points scored when visiting in the given period;  
-TOTAL_GAMES: Total number of games that team played in that period. Note that the total sum of games will be the double of actual games as each team has its own entry.  
-TOTAL_WIN: Number of victories the team had in that period;  
-TOTAL_LOSS: Number of defeats the team had in that period;  
-WIN_PERCENTAGE: Percentage of games won;  
-LOSS_PERCENTAGE Percentage of games lost.  
+- **TEAM_NAME:** The name of the team which the entry is referring to;  
+- **PTS_AVG:** Average of points scored in the given period;  
+- **HOME_AVG:** Average of points scored at home in the given period;  
+- **AWAY_AVG:** Average of points scored when visiting in the given period;  
+- **TOTAL_GAMES:** Total number of games that team played in that period. Note that the total sum of games will be the double of actual games as each team has its own entry.  
+- **TOTAL_WIN:** Number of victories the team had in that period;  
+- **TOTAL_LOSS:** Number of defeats the team had in that period;  
+- **WIN_PERCENTAGE:** Percentage of games won;  
+- **LOSS_PERCENTAGE:** Percentage of games lost.  
 
 ## Conclusion
 
