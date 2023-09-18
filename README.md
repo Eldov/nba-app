@@ -10,6 +10,7 @@ Python/Flask application with Nginx proxy and a Mongo database
 │   ├── Dockerfile
 │   ├── requirements.txt
 │   ├── server.py
+│   ├── helpers.py
 │   ├── .env
 │   └── templates
 |       ├── index.html
