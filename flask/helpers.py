@@ -2,11 +2,8 @@ import pandas as pd
 from datetime import datetime
 
 def convertDate(a):
-    try:
-        date_obj = datetime.strptime(a, '%Y-%m-%d')
-        return date_obj.strftime('%m/%d/%Y')
-    except ValueError:
-        return "Only 'YYYY-MM-DD' format is allowed"
+    date_obj = datetime.strptime(a, '%Y-%m-%d')
+    return date_obj.strftime('%m/%d/%Y')
 
 def testId(a):
     try:      
